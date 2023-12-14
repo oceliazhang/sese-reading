@@ -119,7 +119,7 @@ function NavBar() {
           <div className="d-flex">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item flow-end btn btn-info">
-                <a className="nav-link" href="/signin" style={{ marginRight: '20px' }}>Sign In</a>
+                <a className="nav-link" href="https://jolly-tarsier-c7bf98.netlify.app/signin" style={{ marginRight: '20px' }}>Sign In</a>
               </li>
               <li className="nav-item btn btn-info ms-2">
                 <a className="nav-link" href="/signup" style={{ marginRight: '20px' }}>Sign Up</a>
