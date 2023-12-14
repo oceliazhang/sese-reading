@@ -1,0 +1,36 @@
+.component-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This will make it take up the full viewport height */
+  background-color: #ffffff; /* Color based on your screenshot background */
+}
+
+.content-wrapper {
+  text-align: center;
+}
+
+.centered-image {
+  max-width: 200px; /* Adjust as needed */
+  margin-bottom: 24px;
+}
+
+.text-message {
+  color: #333;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.action-button {
+  background-color: #ffce54; /* The yellow color from your button */
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #f0b400; /* Darker yellow on hover */
+}

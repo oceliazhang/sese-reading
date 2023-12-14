@@ -1,0 +1,121 @@
+/* 导入Pico CSS */
+@import 'https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css';
+
+/* 自定义样式 */
+.book-showcase {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.book-showcase header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.writer-button {
+    float: right; /* 使按钮靠左对齐 */
+    padding: 0.25rem 0.5rem; /* 减小内边距以减小按钮尺寸 */
+    font-size: 0.75rem; /* 减小字体大小 */
+    margin: 0.5rem 0; /*
+    background-color: #285ba3; /* 按钮背景色，可以根据您的设计修改 */
+    width: auto; 
+    border: 1px solid #ccc; /* 按钮边框，可根据设计需要进行调整 */
+    border-radius: 8px; /* 轻微的圆角边框 */
+  }
+
+  .book-info {
+    text-align: left; /* 标题文本靠左对齐 */
+    margin-left: 0; /* 确保左边距为0 */
+    padding-left: 0; /* 如果需要，确保左内边距为0 */
+    /* 其他样式根据需要进行调整 */
+  }
+
+
+  .recommendation h2 {
+    text-align: left; /* 标题文本靠左对齐 */
+    margin-left: 0; /* 确保左边距为0 */
+    padding-left: 0; /* 如果需要，确保左内边距为0 */
+    /* 其他样式根据需要进行调整 */
+  }
+
+  .whats-new h2 {
+    text-align: left; /* 标题文本靠左对齐 */
+    margin-left: 0; /* 确保左边距为0 */
+    padding-left: 0; /* 如果需要，确保左内边距为0 */
+    /* 其他样式根据需要进行调整 */
+  }
+
+.recommendation article,
+.whats-new .book-row,
+.ranking-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.recommendation .book-item {
+    display: flex; /* 使用flex布局 */
+    align-items: flex-start; /* 顶部对齐 */
+    gap: 1rem; /* 图片和文本之间的间隔 */
+    margin-bottom: 1rem; /* 项目之间的垂直间隔 */
+    background-color: #ffffff; /* 为每个书籍项目设置背景色 */
+    padding: 0.5rem; /* 为每个书籍项目设置内边距 */
+    border-radius: 4px; /* 为每个书籍项目设置圆角 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 添加阴影效果增强层次感 */
+  }
+  
+  .recommendation .book-item:last-child {
+    margin-bottom: 0; /* 去除最后一个项目的下边距 */
+  }
+  
+  .recommendation .book-item img {
+    width: 100px; /* 图片宽度 */
+    height: auto; /* 图片高度自动调整 */
+  }
+  
+  .recommendation .book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .whats-new .book-row {
+    display: flex; /* 使用flex布局使子元素并排 */
+    flex-wrap: wrap; /* 允许内容换行 */
+    gap: 1rem; /* 书籍之间的间隔 */
+    justify-content: flex-start; /* 内容靠左对齐 */
+  }
+  
+  .whats-new .book {
+    display: flex; /* 使图片和书名并排 */
+    flex-direction: column; /* 垂直排列图片和书名 */
+    align-items: center; /* 中心对齐 */
+    width: 100px; /* 设置书籍的宽度 */
+    margin-bottom: 1rem; /* 书籍之间的垂直间隔 */
+  }
+  
+  .whats-new .book img {
+    width: 100%; /* 图片宽度占满整个书籍宽度 */
+    height: auto; /* 图片高度自动 */
+  }
+
+  .ranking-list .book-row {
+    display: flex; /* 使用flex布局使子元素并排 */
+    flex-wrap: wrap; /* 允许内容换行 */
+    gap: 1rem; /* 书籍之间的间隔 */
+    justify-content: flex-start; /* 内容靠左对齐 */
+  }
+  
+  .ranking-list .book {
+    display: flex; /* 使图片和书名并排 */
+    flex-direction: column; /* 垂直排列图片和书名 */
+    align-items: center; /* 中心对齐 */
+    width: 100px; /* 设置书籍的宽度 */
+    margin-bottom: 1rem; /* 书籍之间的垂直间隔 */
+  } 
+  
+  .ranking-title {
+    text-align: left;
+  }

@@ -1,0 +1,229 @@
+.book-card {
+  display: flex; /* Use flexbox to align items in a row */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center; /* Align items vertically in the center */
+  padding: 20px;
+  max-width: 100%; /* Ensures the card does not exceed the width of its container */
+  box-sizing: border-box;
+}
+
+.book-card-action-buttons {
+  display: flex;
+  justify-content: space-around; 
+  padding-top: 10px; 
+}
+
+.action-button {
+  background-color: #98d7c2; 
+  color: white; 
+  font-weight: bold; 
+  border: none;
+  border-radius: 5px; 
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.action-button:hover {
+  background-color: #88c7b2; 
+}
+
+.book-card-image-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-card-image {
+  width: 2000px; 
+  height: auto; 
+  object-fit: cover; 
+  margin-bottom: 20px; 
+}
+
+.book-card-buttons {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%; 
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.image-button {
+  padding: 18px 96px; 
+  margin-bottom: 60px; 
+  border: none;
+  border-radius: 85px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold; 
+  width: auto; 
+  flex: 1;
+  margin: 0 35px;
+}
+
+.button-and-text:nth-child(1) .image-button {
+  background-color: #f6e0a4; 
+
+}
+
+.button-and-text:nth-child(1) .image-button:hover {
+  background-color: #e6d394; 
+}
+
+.button-and-text:nth-child(2) .image-button {
+  background-color: #98d7c2; 
+}
+
+.button-and-text:nth-child(2) .image-button:hover {
+  background-color: #88c7b2; 
+}
+
+.button-and-text:nth-child(3) .image-button {
+  background-color: #3a5f5f; 
+}
+
+.button-and-text:nth-child(3) .image-button:hover {
+  background-color: #2a4f4f; 
+}
+
+.book-card-buttons-and-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-and-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -550px;
+}
+
+.book-card-title {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.book-card-writer {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.book-card-update {
+  text-align: justify;
+  color: #333;
+  padding: 10px 0;
+  font-size: 0.9em;
+}
+
+.book-card-read-btn {
+  padding: 10px 20px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: auto; 
+}
+
+.book-card-read-btn:hover {
+  background-color: #0055dd;
+}
+
+.book-card-paragraphs p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.book-card-paragraphs p strong {
+  font-weight: bold;
+  color: #333;
+  margin-right: 5px;
+}
+
+.book-card-paragraphs p span {
+  white-space: normal;
+  word-wrap: break-word; 
+}
+
+
+@media (max-width: 768px) {
+  .book-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-card-image {
+    width: 100%; 
+    height: auto;
+  }
+
+  .book-card-buttons {
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .image-button {
+    width: 90%; 
+    margin-bottom: 8px;
+  }
+
+  .book-card-details {
+    align-items: center;
+    width: 100%; 
+    margin-left: 0; 
+  }
+
+  .book-card-read-btn {
+    width: 90%; 
+  }
+}
+
+
+.book-card-header {
+  display: flex;
+  align-items: center;
+}
+
+.book-card-image {
+  width: 100px; 
+  height: auto;
+}
+
+.book-card-details {
+  margin-left: 20px; 
+}
+
+
+.tableHeaderStyle {
+  padding: '10px';
+  font-weight: bold;
+}
+
+
+.tableTitleStyle {
+  padding: '10px';
+  font-weight: bold;
+  background-color: #f6e0a4;
+  color: white; 
+  border: none;
+  border-radius: 20px; 
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

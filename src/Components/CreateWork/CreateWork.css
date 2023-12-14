@@ -1,0 +1,147 @@
+/* CreateBook.css */
+.create-book-title {
+  font-size: 3rem; /* Adjust font size as needed */
+  color: #2d3748; /* Choose a color that fits your design */
+  text-align: center;
+  margin-top: 1rem; /* Line of space above the title */
+  margin-bottom: 0; /* No space below the title */
+  padding: 0.5rem; /* Optional: Adds padding inside the heading for better spacing */
+  font-weight: bold; /* Optional: Makes the title bold */
+  /* Additional styles to enhance appearance */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+}
+
+body {
+  background-color: #f7fafc;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+.p-4 {
+  padding: 5px;
+}
+
+.text-3xl {
+  font-size: 3rem;
+  color: #2d3748;
+  text-align: center;
+}
+
+.my-4 {
+  margin-top: 5px; /* Reduced margin */
+  margin-bottom: 5px; /* Reduced margin */
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.border-2 {
+  border-width: 1px;
+}
+
+.border-sky-400 {
+  border-color: #90cdf4;
+}
+
+.rounded-xl {
+  border-radius: 0.5rem;
+}
+
+.w {
+  width: 300px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upload-container {
+  text-align: center;
+  margin: 5px 0; /* Reduced margin */
+}
+
+.upload-label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cover-image-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  max-height: 300px;
+  margin-bottom: 1rem; /* Added line of space below the image */
+}
+
+
+.cover-image-input {
+  display: none;
+}
+
+.text-xl {
+  font-size: 0.875rem;
+  color: #4a5568;
+}
+
+.text-gray-500 {
+  color: #a0aec0;
+}
+
+.border-gray-500 {
+  border-color: #cbd5e0;
+}
+
+.px-4, .py-2 {
+  padding: 3px 4px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.bg-sky-300 {
+  background-color: #63b3ed;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.p-2 {
+  padding: 2.5px 3.75px;
+}
+
+.m-8 {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Additional styles for better aesthetics */
+input[type='text'], input[type='number'] {
+  border-radius: 0.15rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  font-size: 0.875rem;
+  margin-bottom: 10px; /* Reduced vertical spacing */
+}
+
+input[type='text']:focus, input[type='number']:focus {
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  border: none;
+  border-radius: 0.15rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+  margin-top: 10px; /* Reduced vertical spacing */
+}
+
+button:hover {
+  background-color: #4299e1;
+}
